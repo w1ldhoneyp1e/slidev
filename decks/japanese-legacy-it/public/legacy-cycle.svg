@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="540" height="430" viewBox="0 0 540 430">
+<defs><marker id="arrow" markerWidth="7" markerHeight="7" refX="5" refY="3" orient="auto"><path d="M0 0L6 3L0 6" fill="none" stroke="#bc263e" stroke-width="1.3"/></marker></defs>
+<g font-family="Arial,'Noto Sans',sans-serif" text-anchor="middle">
+<rect x="156" y="24" width="227" height="78" rx="16" fill="#f5ecee" stroke="#e7cbd1"/>
+<text x="269" y="56" font-size="18" fill="#162235" font-weight="700">Система</text><text x="269" y="79" font-size="17" fill="#162235">усложняется</text>
+<rect x="301" y="166" width="227" height="78" rx="16" fill="#f5ecee" stroke="#e7cbd1"/>
+<text x="414" y="198" font-size="18" fill="#162235" font-weight="700">Заменять</text><text x="414" y="220" font-size="17" fill="#162235">всё опаснее</text>
+<rect x="156" y="313" width="227" height="78" rx="16" fill="#f5ecee" stroke="#e7cbd1"/>
+<text x="269" y="345" font-size="18" fill="#162235" font-weight="700">Больше затрат</text><text x="269" y="366" font-size="17" fill="#162235">на поддержку</text>
+<rect x="12" y="166" width="227" height="78" rx="16" fill="#f5ecee" stroke="#e7cbd1"/>
+<text x="125" y="198" font-size="18" fill="#162235" font-weight="700">Меньше ресурсов</text><text x="125" y="220" font-size="17" fill="#162235">на изменения</text>
+</g>
+<g fill="none" stroke="#bc263e" stroke-width="3" stroke-linecap="round" marker-end="url(#arrow)"><path d="M383 69C430 85 452 116 449 159"/><path d="M414 246C415 285 389 313 371 320"/><path d="M159 352C109 340 84 288 89 248"/><path d="M125 165C130 127 167 101 187 94"/></g>
+</svg>
