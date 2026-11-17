@@ -4,7 +4,8 @@
       "files": ["decks/**/slides.md", "template/slides.md"],
       "options": {
         "parser": "slidev",
-        "plugins": ["prettier-plugin-slidev"]
+        "plugins": ["prettier-plugin-slidev", "prettier-plugin-markdown-html"],
+        "htmlFragmentWhitespaceSensitivity": "ignore"
       }
     }
   ]
