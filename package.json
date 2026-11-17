@@ -1,0 +1,25 @@
+{
+  "name": "slidev-workspace",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "new": "node tools/deck.mjs new",
+    "dev": "node tools/deck.mjs dev",
+    "format": "node tools/deck.mjs format",
+    "check": "node tools/deck.mjs check",
+    "pdf": "node tools/deck.mjs pdf"
+  },
+  "devDependencies": {
+    "@fontsource/inter": "5.2.8",
+    "@fontsource/pt-serif": "5.2.6",
+    "@slidev/cli": "53.0.0",
+    "@slidev/theme-default": "0.25.0",
+    "playwright-chromium": "1.58.2",
+    "prettier": "3.8.1",
+    "prettier-plugin-slidev": "1.0.5",
+    "vue": "^3.5.0"
+  }
+}
