@@ -18,6 +18,14 @@
   overflow-wrap: break-word;
 }
 
+.lecture .lecture-flow:has(> .callout--bottom) {
+  height: 100%;
+}
+
+.lecture .lecture-flow > .callout--bottom {
+  margin-top: auto;
+}
+
 .lecture-flow {
   display: flex;
   flex-direction: column;
