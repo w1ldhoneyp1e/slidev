@@ -1,0 +1,394 @@
+@import '@fontsource-variable/manrope';
+
+:root {
+  --alfa-red: #ef3124;
+  --alfa-ink: #121212;
+  --alfa-gray: #6a6a6a;
+  --alfa-rule: #e5e5e5;
+  --slidev-theme-primary: var(--alfa-red);
+}
+
+html, body, #app {
+  font-family: 'Manrope Variable', Manrope, Arial, sans-serif;
+  background: #fff;
+}
+
+.slidev-layout {
+  position: relative;
+  overflow: hidden;
+  box-sizing: border-box;
+  padding: 70px 82px 76px;
+  color: var(--alfa-ink);
+  background: #fff;
+  font-family: 'Manrope Variable', Manrope, Arial, sans-serif;
+  font-size: 28px;
+  line-height: 1.42;
+  letter-spacing: -0.025em;
+}
+
+.slidev-layout h1 {
+  margin: 0 0 43px;
+  padding: 0;
+  color: var(--alfa-ink);
+  font-size: 53px;
+  font-weight: 730;
+  line-height: 1.12;
+  letter-spacing: -0.045em;
+}
+
+.slidev-layout p {
+  margin: 18px 0;
+}
+
+.slidev-layout strong {
+  font-weight: 720;
+}
+
+.slidev-layout table {
+  width: 100%;
+  margin: 0;
+  border-collapse: collapse;
+  font-size: 27px;
+  line-height: 1.4;
+}
+
+.slidev-layout th,
+.slidev-layout td {
+  padding: 14px 20px 14px 0;
+  border: 0;
+  border-bottom: 1px solid var(--alfa-rule);
+  text-align: left;
+  background: transparent;
+  vertical-align: middle;
+}
+
+.slidev-layout th {
+  padding-top: 0;
+  padding-bottom: 13px;
+  color: var(--alfa-gray);
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.slidev-layout tbody tr:last-child td {
+  border-bottom: 0;
+}
+
+.slidev-layout td:first-child {
+  width: 260px;
+}
+
+.slidev-layout blockquote {
+  margin: 27px 0 0;
+  padding: 0;
+  border: 0;
+  color: var(--alfa-gray);
+  font-size: 21px;
+  line-height: 1.4;
+  font-style: normal;
+  background: transparent !important;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.slidev-layout blockquote p {
+  margin: 0;
+}
+
+.slidev-layout ul {
+  margin: 32px 0 0;
+  padding-left: 23px;
+}
+
+.slidev-layout li {
+  margin: 9px 0;
+  padding-left: 5px;
+}
+
+.slidev-layout li::marker {
+  color: var(--alfa-red);
+}
+
+/* Номер — последний обычный абзац каждого слайда в slides.md. */
+.slidev-layout > p:last-child {
+  position: absolute;
+  right: 82px;
+  bottom: 30px;
+  margin: 0;
+  color: var(--alfa-gray);
+  font-size: 19px;
+  font-weight: 500;
+  line-height: 1;
+  letter-spacing: 0;
+}
+
+.slidev-layout.alfa-cover {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: var(--alfa-red);
+  color: #fff;
+}
+
+.alfa-cover h1 {
+  margin: 0 0 23px;
+  color: #fff;
+  font-size: 100px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.065em;
+}
+
+.alfa-cover h2 {
+  max-width: 950px;
+  margin: 0 0 34px;
+  font-size: 48px;
+  font-weight: 530;
+  line-height: 1.18;
+  letter-spacing: -0.035em;
+}
+
+.alfa-cover p {
+  margin: 8px 0;
+  font-size: 24px;
+  font-weight: 450;
+}
+
+.alfa-cover > p:nth-last-child(2) {
+  margin-top: 27px;
+  font-size: 19px;
+  opacity: 0.75;
+}
+
+.alfa-cover > p:last-child {
+  color: #fff;
+  opacity: 0.8;
+}
+
+.alfa-history td:first-child,
+.alfa-facts td:first-child,
+.alfa-owners td:first-child {
+  color: var(--alfa-red);
+}
+
+.alfa-history td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  font-size: 28px;
+}
+
+.alfa-portfolio td:first-child {
+  width: 510px;
+  color: var(--alfa-gray);
+}
+
+.alfa-portfolio td {
+  padding-top: 13px;
+  padding-bottom: 13px;
+  font-size: 28px;
+}
+
+.alfa-bank h1 {
+  margin-bottom: 18px;
+}
+
+.alfa-bank > p:first-of-type {
+  margin: 0 0 66px;
+  color: var(--alfa-gray);
+  font-size: 24px;
+  opacity: 1;
+}
+
+.alfa-bank table {
+  table-layout: fixed;
+}
+
+.alfa-bank th {
+  padding: 0 12px 13px 0;
+  border: 0;
+  color: var(--alfa-red);
+  font-size: 42px;
+  font-weight: 800;
+  line-height: 1.2;
+  white-space: nowrap;
+  letter-spacing: -0.05em;
+}
+
+.alfa-bank td,
+.alfa-bank td:first-child {
+  width: auto;
+  padding: 0 15px 0 0;
+  border: 0;
+  color: var(--alfa-gray);
+  font-size: 21px;
+  vertical-align: top;
+}
+
+.alfa-bank ul {
+  margin-top: 57px;
+  font-size: 28px;
+}
+
+.alfa-bank blockquote {
+  margin-top: 33px;
+  font-size: 19px;
+}
+
+.alfa-deal h1,
+.alfa-bank-story h1 {
+  margin-bottom: 32px;
+  font-size: 49px;
+}
+
+.alfa-deal td:first-child {
+  width: 220px;
+  color: var(--alfa-red);
+}
+
+.alfa-deal h2 {
+  margin: 30px 0 10px;
+  color: var(--alfa-red);
+  font-size: 62px;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -0.05em;
+}
+
+.alfa-deal > p:first-of-type {
+  margin: 0;
+  color: var(--alfa-gray);
+  font-size: 24px;
+  opacity: 1;
+}
+
+.alfa-bank-story h2 {
+  margin: 60px 0 18px;
+  color: var(--alfa-red);
+  font-size: 84px;
+  font-weight: 800;
+  line-height: 1;
+  letter-spacing: -0.055em;
+}
+
+.alfa-bank-story > p:first-of-type {
+  margin: 0;
+  color: var(--alfa-gray);
+  font-size: 25px;
+  opacity: 1;
+}
+
+.alfa-bank-story ul {
+  margin-top: 50px;
+}
+
+.alfa-bank-story blockquote {
+  margin-top: 35px;
+  font-size: 21px;
+}
+
+.alfa-portfolio td:first-child {
+  width: 415px;
+}
+
+.alfa-economy th:first-child,
+.alfa-economy td:first-child {
+  width: 345px;
+}
+
+.alfa-economy td:nth-child(2) {
+  width: 455px;
+}
+
+.alfa-economy td {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.alfa-economy td:nth-child(2) strong {
+  color: var(--alfa-red);
+}
+
+.alfa-economy td:last-child {
+  color: var(--alfa-gray);
+  font-size: 20px;
+  white-space: nowrap;
+}
+
+.alfa-economy > p:first-of-type {
+  margin-top: 42px;
+  max-width: 1020px;
+  font-size: 27px;
+}
+
+.alfa-owners h1 {
+  font-size: 49px;
+  margin-bottom: 32px;
+}
+
+.alfa-owners td {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 25px;
+}
+
+.alfa-owners td:first-child {
+  width: 235px;
+  white-space: nowrap;
+}
+
+.alfa-owners > p:first-of-type {
+  margin: 34px 0 8px;
+  color: var(--alfa-gray);
+  font-size: 19px;
+}
+
+.alfa-owners > p:nth-of-type(2) {
+  margin: 0;
+  font-size: 27px;
+}
+
+.alfa-owners blockquote {
+  margin-top: 25px;
+  font-size: 20px;
+}
+
+.alfa-facts h1 {
+  margin-bottom: 50px;
+}
+
+.alfa-facts thead {
+  display: none;
+}
+
+.alfa-facts td {
+  padding-top: 28px;
+  padding-bottom: 28px;
+  font-size: 28px;
+}
+
+.alfa-facts td:first-child {
+  width: 320px;
+  font-size: 36px;
+  line-height: 1.15;
+  white-space: nowrap;
+}
+
+/* В режиме показа остаётся только номер, заданный в Markdown.
+   Панель и заметки самого докладчика в /presenter не скрываются. */
+#slidev-nav,
+.slidev-nav,
+.slidev-nav-controls,
+#page-root #slide-container > div:has(> nav),
+#slidev-notes,
+.slidev-slide-info,
+.slidev-progress {
+  display: none !important;
+}
+
+@media print {
+  .slidev-layout {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+}
