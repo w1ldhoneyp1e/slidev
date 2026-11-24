@@ -177,65 +177,7 @@ html, body, #app {
   font-size: 28px;
 }
 
-.alfa-portfolio td:first-child {
-  width: 510px;
-  color: var(--alfa-gray);
-}
-
-.alfa-portfolio td {
-  padding-top: 13px;
-  padding-bottom: 13px;
-  font-size: 28px;
-}
-
-.alfa-bank h1 {
-  margin-bottom: 18px;
-}
-
-.alfa-bank > p:first-of-type {
-  margin: 0 0 66px;
-  color: var(--alfa-gray);
-  font-size: 24px;
-  opacity: 1;
-}
-
-.alfa-bank table {
-  table-layout: fixed;
-}
-
-.alfa-bank th {
-  padding: 0 12px 13px 0;
-  border: 0;
-  color: var(--alfa-red);
-  font-size: 42px;
-  font-weight: 800;
-  line-height: 1.2;
-  white-space: nowrap;
-  letter-spacing: -0.05em;
-}
-
-.alfa-bank td,
-.alfa-bank td:first-child {
-  width: auto;
-  padding: 0 15px 0 0;
-  border: 0;
-  color: var(--alfa-gray);
-  font-size: 21px;
-  vertical-align: top;
-}
-
-.alfa-bank ul {
-  margin-top: 57px;
-  font-size: 28px;
-}
-
-.alfa-bank blockquote {
-  margin-top: 33px;
-  font-size: 19px;
-}
-
-.alfa-deal h1,
-.alfa-bank-story h1 {
+.alfa-deal h1 {
   margin-bottom: 32px;
   font-size: 49px;
 }
@@ -261,64 +203,27 @@ html, body, #app {
   opacity: 1;
 }
 
-.alfa-bank-story h2 {
-  margin: 60px 0 18px;
-  color: var(--alfa-red);
-  font-size: 84px;
-  font-weight: 800;
-  line-height: 1;
-  letter-spacing: -0.055em;
+/* Financial and economic footprint */
+.alfa-impact td:first-child {
+  width: 380px;
 }
-
-.alfa-bank-story > p:first-of-type {
-  margin: 0;
-  color: var(--alfa-gray);
-  font-size: 25px;
-  opacity: 1;
+.alfa-impact td {
+  padding-top: 17px;
+  padding-bottom: 17px;
+  font-size: 26px;
 }
-
-.alfa-bank-story ul {
-  margin-top: 50px;
-}
-
-.alfa-bank-story blockquote {
-  margin-top: 35px;
-  font-size: 21px;
-}
-
-.alfa-portfolio td:first-child {
-  width: 415px;
-}
-
-.alfa-economy th:first-child,
-.alfa-economy td:first-child {
-  width: 345px;
-}
-
-.alfa-economy td:nth-child(2) {
-  width: 455px;
-}
-
-.alfa-economy td {
-  padding-top: 20px;
-  padding-bottom: 20px;
-  font-size: 25px;
-}
-
-.alfa-economy td:nth-child(2) strong {
+.alfa-impact td:nth-child(2) strong {
   color: var(--alfa-red);
 }
-
-.alfa-economy td:last-child {
-  color: var(--alfa-gray);
-  font-size: 20px;
-  white-space: nowrap;
+.alfa-cover h3 {
+  margin-top: 8px;
+  color: #fff;
+  font-size: 26px;
+  font-weight: 500;
+  opacity: .85;
 }
-
-.alfa-economy > p:first-of-type {
-  margin-top: 42px;
-  max-width: 1020px;
-  font-size: 27px;
+.alfa-history h1 {
+  font-size: 49px;
 }
 
 .alfa-owners h1 {
@@ -368,7 +273,7 @@ html, body, #app {
 }
 
 .alfa-facts td:first-child {
-  width: 320px;
+  width: 210px;
   font-size: 36px;
   line-height: 1.15;
   white-space: nowrap;
