@@ -226,36 +226,79 @@ html, body, #app {
   font-size: 49px;
 }
 
+/* Слайд 7: горизонтальная диаграмма на обычной Markdown-таблице. */
 .alfa-owners h1 {
   font-size: 49px;
-  margin-bottom: 32px;
+  margin-bottom: 24px;
+}
+
+.alfa-owners h2 {
+  font-size: 29px;
+  font-weight: 600;
+  line-height: 1.2;
+  margin: 0 0 20px;
+}
+
+.alfa-owners table {
+  table-layout: fixed;
+}
+
+.alfa-owners th {
+  font-size: 18px;
+  padding-bottom: 8px;
+  border-bottom: 0;
 }
 
 .alfa-owners td {
-  padding-top: 17px;
-  padding-bottom: 17px;
+  padding: 10px 18px 10px 0;
   font-size: 25px;
+  border-bottom: 0;
+  line-height: 1.2;
 }
 
+.alfa-owners th:first-child,
 .alfa-owners td:first-child {
-  width: 235px;
+  width: 345px;
   white-space: nowrap;
+  color: var(--alfa-ink);
 }
 
-.alfa-owners > p:first-of-type {
-  margin: 34px 0 8px;
-  color: var(--alfa-gray);
-  font-size: 19px;
+.alfa-owners th:last-child,
+.alfa-owners td:last-child {
+  width: 135px;
+  text-align: right;
+  padding-right: 0;
+  font-variant-numeric: tabular-nums;
 }
 
-.alfa-owners > p:nth-of-type(2) {
-  margin: 0;
-  font-size: 27px;
+.alfa-owners td:nth-child(2)::before {
+  content: '';
+  display: block;
+  width: var(--share);
+  height: 15px;
+  border-radius: 2px;
+  background: #b0b0b0;
+}
+
+.alfa-owners tbody tr:nth-child(1) { --share: 40.9614%; }
+.alfa-owners tbody tr:nth-child(2) { --share: 32.8632%; }
+.alfa-owners tbody tr:nth-child(3) { --share: 12.4018%; }
+.alfa-owners tbody tr:nth-child(4) { --share: 9.9%; }
+.alfa-owners tbody tr:nth-child(5) { --share: 3.8736%; }
+
+.alfa-owners tbody tr:first-child td:nth-child(2)::before {
+  background: var(--alfa-red);
+}
+
+.alfa-owners tbody tr:first-child td:last-child {
+  color: var(--alfa-red);
 }
 
 .alfa-owners blockquote {
-  margin-top: 25px;
+  margin-top: 22px;
   font-size: 20px;
+  line-height: 1.35;
+  max-width: 1080px;
 }
 
 .alfa-facts h1 {
